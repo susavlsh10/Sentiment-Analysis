@@ -11,9 +11,12 @@ This project performs sentiment analysis by classifying an entire movie review a
 4. BERT. We fine-tune BERT (Bidirectional Encoder Representations from Transformers) on the imdb dataset to perform sentiment analysis of movie review classification. We train the model for 10 epochs on the training dataset.
 
 
+We test the models with 10-fold cross validation training and testing on the data.
+
  | Model | Average 10 fold Accuracy |
 |----------|----------|
 | Naive Bayes | 81.6 |
 | Perceptron | 82.2 |
 | BERT | 83.0 | 
 
+The contextualized deep learning model outperforms all the other algorithms for sentiment analysis for the given dataset. The results shown above were run with a batch size of 8 and 10 iterations for each fold. Even with just 10 iterations, the BERT model outperformed the Naïve Bayes and the Perceptron methods. ![image](https://github.com/susavlsh10/Sentiment-Analysis/assets/54409828/53ca2c6b-e7df-41b9-92c8-7d3950b046be)
