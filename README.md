@@ -19,4 +19,4 @@ We test the models with 10-fold cross validation training and testing on the dat
 | Perceptron | 82.2 |
 | BERT | 83.0 | 
 
-The contextualized deep learning model outperforms all the other algorithms for sentiment analysis for the given dataset. The results shown above were run with a batch size of 8 and 10 iterations for each fold. Even with just 10 iterations, the BERT model outperformed the Naïve Bayes and the Perceptron methods. ![image](https://github.com/susavlsh10/Sentiment-Analysis/assets/54409828/53ca2c6b-e7df-41b9-92c8-7d3950b046be)
+The contextualized deep learning model outperforms all the other algorithms for sentiment analysis for the given dataset with just 10 epochs of fine-tuning. We can further increase the performance with additional training of the model.
